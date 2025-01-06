@@ -5,7 +5,7 @@ import torch
 from mpl_toolkits.axes_grid1 import ImageGrid  # only needed for plotting
 
 DATA_PATH = "/zhome/45/0/155089/dtu_mlops-main/corruptmnist_v1"
-
+# this is supposed to make conflict
 
 def corrupt_mnist() -> tuple[torch.utils.data.Dataset, torch.utils.data.Dataset]:
     """Return train and test dataloaders for corrupt MNIST."""
